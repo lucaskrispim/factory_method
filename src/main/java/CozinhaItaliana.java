@@ -1,6 +1,8 @@
-class CozinhaItaliana extends Restaurante {
+class CozinhaItaliana implements ICozinha {
+
     @Override
-    public Refeicao prepararRefeicao() {
-        return new Pizza();
+    public String preparar() {
+        return "Comida italiana preparada";
     }
+
 }

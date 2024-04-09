@@ -1,6 +1,7 @@
-class CozinhaJaponesa extends Restaurante {
+class CozinhaJaponesa implements ICozinha {
     @Override
-    public Refeicao prepararRefeicao() {
-        return new Sushi();
+    public String preparar() {
+        return "Comida japonesa preparada";
     }
+
 }

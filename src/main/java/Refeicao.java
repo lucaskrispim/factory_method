@@ -1,3 +1,0 @@
-interface Refeicao {
-    void preparar();
-}

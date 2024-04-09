@@ -1,6 +1,7 @@
-class CozinhaMexicana extends Restaurante {
+class CozinhaMexicana implements ICozinha {
     @Override
-    public Refeicao prepararRefeicao() {
-        return new Taco();
+    public String preparar() {
+        return "Comida mexicana preparada";
     }
+
 }
